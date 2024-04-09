@@ -1,6 +1,10 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
 void main() {
+  log("hey my love puchu");
+  log("hey my love puchu");
   runApp(const MyApp());
 }
 
@@ -58,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    log("hey my love puchu");
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
